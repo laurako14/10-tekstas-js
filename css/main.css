@@ -1,0 +1,36 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    display: inline-block;
+    width: 100%;
+    text-align: center;  
+    margin-top: 20px;
+}
+
+form > textarea {
+    display: inline-block;
+    width: 500px;
+    max-width: 90%;
+    text-align: justify;
+    padding: 10px;
+    min-height: 300px;
+    max-height: 500px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    resize: vertical;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+}
